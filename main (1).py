@@ -1,4 +1,4 @@
-ndef binbasen(x, y):
+def binbasen(x, y):
     t = ""
     while x > 0:
         f = x % y
