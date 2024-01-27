@@ -1,4 +1,4 @@
-n = int(input())
+def clean_pattern(n):
 pattern = [["." for i in range(n)]]
 pattern[0][0] = "*"
 a, b = 0, 0
@@ -20,6 +20,11 @@ for row in pattern:
     print(" ".join(row))
 if a != len(pattern)-1 or b != n-1:
     print("There's no way out!")
+
+n = int(input())
+clean_pattern(n)
+
+
 
 
 
